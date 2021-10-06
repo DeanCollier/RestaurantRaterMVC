@@ -101,7 +101,6 @@ D:\1150\Week16\Restaurant_Rater_MVC\RestaurantRater\RestaurantRater\bin\Microsof
 D:\1150\Week16\Restaurant_Rater_MVC\RestaurantRater\RestaurantRater\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\1150\Week16\Restaurant_Rater_MVC\RestaurantRater\RestaurantRater\bin\Microsoft.Owin.Security.OAuth.xml
 D:\1150\Week16\Restaurant_Rater_MVC\RestaurantRater\RestaurantRater\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\1150\Week16\Restaurant_Rater_MVC\RestaurantRater\RestaurantRater\obj\Debug\RestaurantRater.csproj.AssemblyReference.cache
 D:\1150\Week16\Restaurant_Rater_MVC\RestaurantRater\RestaurantRater\obj\Debug\RestaurantRater.csproj.CoreCompileInputs.cache
 D:\1150\Week16\Restaurant_Rater_MVC\RestaurantRater\RestaurantRater\obj\Debug\RestaurantRater.csproj.CopyComplete
 D:\1150\Week16\Restaurant_Rater_MVC\RestaurantRater\RestaurantRater\obj\Debug\RestaurantRater.dll
