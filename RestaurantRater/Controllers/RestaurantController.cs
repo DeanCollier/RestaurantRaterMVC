@@ -19,12 +19,11 @@ namespace RestaurantRater.Controllers
             return View(_db.Restaurants.ToList());
         }
 
-        // GET: Restaurant/Create
+        // POST GET: Restaurant/Create
         public ActionResult Create()
         {
             return View();
         }
-
         // POST: Restaurant/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -40,7 +39,35 @@ namespace RestaurantRater.Controllers
             return View(restaurant);
         }
 
-        // DELETE: Restaurant/Delete/{id}
+        // EDIT GET: Restaurant/Edit/{id}
+        public ActionResult Edit(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Restaurant restaurant = _db.Restaurants.Find(id);
+            if (restaurant == null)
+            {
+                return HttpNotFound();
+            }
+            return View(restaurant);
+        }
+        // EDIT: Restaurant/Edit/{id}
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(Restaurant restaurant)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Entry(restaurant).State = EntityState.Modified;
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(restaurant);
+        }
+
+        // DELETE GET: Restaurant/Delete/{id}
         public ActionResult Delete(int? id)
         {
             if (id == null)

@@ -105,3 +105,4 @@ D:\1150\Week16\Restaurant_Rater_MVC\RestaurantRater\RestaurantRater\obj\Debug\Re
 D:\1150\Week16\Restaurant_Rater_MVC\RestaurantRater\RestaurantRater\obj\Debug\RestaurantRater.csproj.CopyComplete
 D:\1150\Week16\Restaurant_Rater_MVC\RestaurantRater\RestaurantRater\obj\Debug\RestaurantRater.dll
 D:\1150\Week16\Restaurant_Rater_MVC\RestaurantRater\RestaurantRater\obj\Debug\RestaurantRater.pdb
+D:\1150\Week16\Restaurant_Rater_MVC\RestaurantRater\RestaurantRater\obj\Debug\RestaurantRater.csproj.AssemblyReference.cache
